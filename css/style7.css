@@ -1,0 +1,24 @@
+*{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    color: blueviolet;
+}
+.menu{
+    background-color: #D6AFDC;
+    width: 35%;
+    font-size: 20px;
+}
+.menu nav ul{
+    list-style: none;
+    display: inline-flex;
+    padding: 0px;
+    margin-left: 20px;
+}
+.menu nav ul li{
+    padding: 10px 20px 10px 20px;
+} 
+.menu nav ul li:hover{
+    background-color: blue;
+}

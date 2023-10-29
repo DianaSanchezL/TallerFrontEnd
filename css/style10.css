@@ -1,0 +1,46 @@
+.animacion_1{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    display: flex;
+}
+    @keyframes example1 {
+    0% {left:0px;
+    }
+    50% {left:50%;
+    }
+    100% {left:0px;
+    }
+}
+.padre2{
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+.animacion_2{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation-name: example2;
+    animation-duration: 8s;
+    animation-iteration-count:infinite;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    font-weight: bolder;
+    color:#56BFBF;
+    left: 50%;
+    top: 50%;
+}
+@keyframes example2 {
+    0% {background-color: #F294AD; left:0px; top:0px;}
+    25% {background-color: #D95BA0; left:0px; top:500px;}
+    50% {background-color: #F2C230; left:500px; top:500px;}
+    75% {background-color: #F28B30; left:500px; top:0px;}
+    100% {background-color: #F294AD; left:0px; top:0px;}
+    }

@@ -1,0 +1,32 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+} 
+h1{
+    color: blueviolet;
+}
+pre{
+    line-height: 2;
+}
+.green-underline{
+text-decoration: underline;
+color: green;
+}
+.red{
+    color: red;
+}
+.overline-underline{
+    text-decoration: overline underline;
+}
+.bigger{
+    font-size: 35px;
+}
+.blue{
+    color: blue;
+    font-size: 20px;
+}
+.red-underline{
+    color: red;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    font-size: 20px;
+}

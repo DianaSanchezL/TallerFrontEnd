@@ -1,0 +1,20 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: cornflowerblue;
+    font-weight: bold;
+}
+h1{
+    color: blueviolet;
+}
+pre{
+    line-height: 3;
+}
+.yellow{
+    color: yellow;
+    text-decoration: underline;
+}
+.purple{
+    color: darkmagenta;
+    text-decoration:underline;
+}

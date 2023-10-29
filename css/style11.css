@@ -1,0 +1,24 @@
+header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+h1{
+    margin-left: 10%;
+}
+p{
+    margin: 20px;
+    text-align: center;
+}
+img{
+    height: 75vh;
+    width: auto;
+}
+#btn, #submit{
+    background-color: chocolate;
+    border: chocolate;
+}
+#btn{
+    margin-right: 10%;
+    font-size: 30px;
+}
